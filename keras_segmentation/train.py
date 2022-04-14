@@ -1,8 +1,8 @@
 import json
 import os
 
-from .data_utils.data_loader import image_segmentation_generator, \
-    verify_segmentation_dataset
+import data_utils
+from tensorflow import keras
 import six
 from keras.callbacks import Callback
 from tensorflow.keras.callbacks import ModelCheckpoint
